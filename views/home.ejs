@@ -1,0 +1,22 @@
+<%- include("partials/header"); %>
+
+    <div class="main-container">
+
+        <h1 class="title"><%= today %>, <%= month %> <%= day %> </h1>
+
+        <form class="form">
+            <input type="text" placeholder="New note...">
+            <button class="btn">Add</button>
+        </form>
+
+        <div class="notes">
+            <!-- loop through notes and make all into note -->
+            <div class="note">
+                <p>note content</p>
+            </div>
+
+        </div>
+
+    </div>
+
+<%- include("partials/footer"); %>
